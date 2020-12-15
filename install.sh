@@ -1,8 +1,16 @@
-apt update && apt upgrade
-pkg install wget
+
+pkg install git
+
 pkg install ffmpeg
+
 pkg install nodejs
-npm i -g cwebp
-npm i -g ytdl 
-npm i
-npm i got
+
+apt update && apt upgrade
+
+git clone https://github.com/Dika-sudo/bot.rasya
+
+cd bot.rasya
+
+bash install.sh
+
+node index.js
